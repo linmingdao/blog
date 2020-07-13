@@ -1,1 +1,3 @@
-var category = ["a", "b"];
+var category = {
+  name: "hh",
+};
