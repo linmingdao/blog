@@ -1,3 +1,0 @@
-var category = {
-  name: "hh",
-};
