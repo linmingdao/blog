@@ -18,23 +18,25 @@
   "updates": [],
   "category": [
     {
-      "label": "roadmap",
+      "label": "self ctrl",
       "children": [
         {
-          "label": "todos",
+          "label": "待办事项",
           "date": "2020-07-20",
           "id": "000000",
-          "tags": [
-            "roadmap"
-          ]
+          "tags": []
         },
         {
-          "label": "facing the wall",
+          "label": "吾日三省吾身",
           "date": "2020-07-16",
           "id": "000001",
-          "tags": [
-            "roadmap"
-          ]
+          "tags": []
+        },
+        {
+          "label": "三体摘录",
+          "date": "2020-07-16",
+          "id": "000002",
+          "tags": []
         }
       ]
     },
@@ -45,25 +47,19 @@
           "label": "v-bonjure，基于 Vue 的前端脚手架",
           "date": "2020-06-08",
           "id": "001000",
-          "tags": [
-            "个人项目"
-          ]
+          "tags": []
         },
         {
           "label": "SVGraffiti，基于 SVG 的涂鸦控件",
           "date": "2020-05-05",
           "id": "001001",
-          "tags": [
-            "个人项目"
-          ]
+          "tags": []
         },
         {
           "label": "GitHub pages，搭建个人博客的一些心得",
           "date": "2020-07-20",
           "id": "001002",
-          "tags": [
-            "个人项目"
-          ]
+          "tags": []
         }
       ]
     },
