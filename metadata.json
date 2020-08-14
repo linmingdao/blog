@@ -1,19 +1,7 @@
 {
   "meta": {
     "baseUrl": "https://linmingdao.github.io/blog/documents/",
-    "tags": [
-      "前端",
-      "app",
-      "css",
-      "小程序",
-      "Flutter",
-      "RN",
-      "鸡屎",
-      "html",
-      "linux",
-      "个人项目",
-      "roadmap"
-    ]
+    "tags": []
   },
   "updates": [],
   "category": [
@@ -70,19 +58,13 @@
           "label": "自适应的 App 布局总结",
           "date": "2020-07-20",
           "id": "003000",
-          "tags": [
-            "前端",
-            "css"
-          ]
+          "tags": []
         },
         {
           "label": "native，web，hibrid app",
           "date": "2020-06-16",
           "id": "003001",
-          "tags": [
-            "前端",
-            "app"
-          ]
+          "tags": []
         },
         {
           "label": "API bridge - JSbridge 实现原理",
@@ -106,6 +88,12 @@
           "label": "Flutter 入门",
           "date": "2020-02-07",
           "id": "003005",
+          "tags": []
+        },
+        {
+          "label": "webpack之体积优化",
+          "date": "2020-08-14",
+          "id": "003006",
           "tags": []
         }
       ]
