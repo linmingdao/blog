@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function unique(arr) {
+        let tmpArr = [];
+        let objNum = {};
+        let objNotNum = {};
+
+        arr.forEach((item) => {
+          let type = typeof item;
+          let key = type === "object" ? JSON.stringify(item) : item;
+
+          if (type === "number") {
+            if (!objNum[key]) {
+              objNum[key] = 1;
+              tmpArr.push(item);
+              return;
+            }
+          }
+
+          if (Object.prototype.toString.call(item) === "[object Set]") {
+            item = Array.from(item);
+          }
+
+          if (Object.prototype.toString.call(item) === "[object Map]") {
+            item = Object.fromEntries(item.entries());
+          }
+
+          if (!objNotNum[key]) {
+            objNotNum[key] = 1;
+            tmpArr.push(item);
+          }
+        });
+
+        return tmpArr;
+      }
+
+      console.log(
+        unique([
+          1,
+          "1",
+          1,
+          "1",
+          { 1: 0, 2: "3" },
+          { 1: 0, 2: "3" },
+          [1, 2, 3, "4"],
+          [1, 2, 3, "4"],
+          false,
+          true,
+          false,
+          true,
+          NaN,
+          NaN,
+          new Set([1, 2, 3, 4]),
+          new Set([1, 2, 3, 4]),
+        ])
+      );
+    </script>
+  </body>
+</html>

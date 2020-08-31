@@ -34,7 +34,7 @@
           "id": "003002"
         },
         {
-          "label": "小程序框架对比",
+          "label": "深究 Object.prototype.toString.call",
           "date": "2020-05-09",
           "id": "003003"
         },
@@ -57,6 +57,11 @@
           "label": "webpack之Tapable",
           "date": "2020-08-17",
           "id": "003007"
+        },
+        {
+          "label": "js 多类型数据数组去重",
+          "date": "2020-08-31",
+          "id": "003008"
         }
       ]
     },
