@@ -1,10 +1,10 @@
 {
   "category": [
     {
-      "label": "工欲善其事，必先利其器",
+      "label": "工欲善其事, 必先利其器",
       "children": [
         {
-          "label": "提升Coding效率的工具合集",
+          "label": "提升 Coding 效率的工具合集",
           "date": "2020-08-19",
           "id": "001000"
         },
@@ -24,7 +24,7 @@
           "id": "003000"
         },
         {
-          "label": "native，web，hibrid app",
+          "label": "native，web, hibrid app",
           "date": "2020-06-16",
           "id": "003001"
         },
@@ -34,7 +34,7 @@
           "id": "003002"
         },
         {
-          "label": "深究 Object.prototype.toString.call",
+          "label": "深究 Object.prototype.toString",
           "date": "2020-05-09",
           "id": "003003"
         },
@@ -44,22 +44,22 @@
           "id": "003004"
         },
         {
-          "label": "webpack之重要概念",
+          "label": "webpack 之重要概念",
           "date": "2020-08-25",
           "id": "003005"
         },
         {
-          "label": "webpack之体积优化",
+          "label": "webpack 之体积优化",
           "date": "2020-08-14",
           "id": "003006"
         },
         {
-          "label": "webpack之Tapable",
+          "label": "webpack 之 Tapable",
           "date": "2020-08-17",
           "id": "003007"
         },
         {
-          "label": "js多类型数据数组去重",
+          "label": "JS 多类型数据数组去重",
           "date": "2020-08-31",
           "id": "003008"
         }
