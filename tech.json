@@ -29,7 +29,7 @@
           "id": "003001"
         },
         {
-          "label": "微任务, 宏任务 与 Event-Loop",
+          "label": "JavaScript 执行机制",
           "date": "2020-09-01",
           "id": "003002"
         },
