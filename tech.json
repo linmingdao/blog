@@ -20,11 +20,11 @@
       "children": [
         {
           "label": "vue 源码分析前置知识",
-          "date": "2020-07-20",
+          "date": "2020-09-01",
           "id": "003000"
         },
         {
-          "label": "vue@2.x.x 之数据劫持, keep-alive, 依赖收集",
+          "label": "vue@2.x.x 之数据劫持, keep-alive, 依赖收集, vue 之 nextTick 原理分析",
           "date": "2020-06-16",
           "id": "003001"
         },
