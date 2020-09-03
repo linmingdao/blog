@@ -19,49 +19,69 @@
       "label": "前端相关笔记",
       "children": [
         {
-          "label": "JavaScript 执行机制",
-          "date": "2020-09-01",
-          "id": "003002"
+          "label": "JavaScript",
+          "children": [
+            {
+              "label": "JavaScript 执行机制",
+              "date": "2020-09-01",
+              "id": "003002"
+            },
+            {
+              "label": "JS 多类型数据数组去重",
+              "date": "2020-08-31",
+              "id": "003008"
+            },
+            {
+              "label": "深究 Object.prototype.toString",
+              "date": "2020-05-09",
+              "id": "003003"
+            },
+            {
+              "label": "浏览器缓存技术",
+              "date": "2020-08-28",
+              "id": "003004"
+            }
+          ]
         },
         {
-          "label": "vue 源码分析前置知识",
-          "date": "2020-09-01",
-          "id": "003000"
+          "label": "Vue",
+          "children": [
+            {
+              "label": "vue 源码分析前置知识",
+              "date": "2020-09-01",
+              "id": "003000"
+            },
+            {
+              "label": "vue@2.x.x 之数据劫持",
+              "date": "2020-09-03",
+              "id": "003001"
+            },
+            {
+              "label": "Vue 之 keep-alive",
+              "date": "2020-09-03",
+              "id": "003009"
+            }
+          ]
         },
         {
-          "label": "vue@2.x.x 之数据劫持, keep-alive, 依赖收集, vue 之 nextTick 原理分析",
-          "date": "2020-06-16",
-          "id": "003001"
-        },
-        {
-          "label": "深究 Object.prototype.toString",
-          "date": "2020-05-09",
-          "id": "003003"
-        },
-        {
-          "label": "浏览器缓存技术",
-          "date": "2020-08-28",
-          "id": "003004"
-        },
-        {
-          "label": "webpack 之重要概念",
-          "date": "2020-08-25",
-          "id": "003005"
-        },
-        {
-          "label": "webpack 之体积优化",
-          "date": "2020-08-14",
-          "id": "003006"
-        },
-        {
-          "label": "webpack 之 Tapable",
-          "date": "2020-08-17",
-          "id": "003007"
-        },
-        {
-          "label": "JS 多类型数据数组去重",
-          "date": "2020-08-31",
-          "id": "003008"
+          "label": "webpack",
+          "children": [
+            {
+              "label": "webpack 之重要概念",
+              "date": "2020-08-25",
+              "id": "003005"
+            },
+            {
+              "label": "webpack 之体积优化",
+              "date": "2020-08-14",
+              "id": "003006"
+            },
+            {
+              "label": "webpack 之 Tapable",
+              "date": "2020-08-17",
+              "id": "003007"
+            }
+          ]
         }
       ]
     },
