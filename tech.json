@@ -67,7 +67,7 @@
               "id": "003010"
             },
             {
-              "label": "Vue 之 虚拟DOM",
+              "label": "Vue 之 virtual dom 以及 diff 算法",
               "date": "2020-09-03",
               "id": "003011"
             }
