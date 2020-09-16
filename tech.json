@@ -104,8 +104,8 @@
       "label": "后端相关笔记",
       "children": [
         {
-          "label": "Node",
-          "date": "2020-02-07",
+          "label": "Nginx 入门",
+          "date": "2020-09-16",
           "id": "004000"
         }
       ]
@@ -114,8 +114,8 @@
       "label": "运维相关笔记",
       "children": [
         {
-          "label": "Linux",
-          "date": "2020-02-07",
+          "label": "Linux 常用命令",
+          "date": "2020-09-16",
           "id": "005000"
         },
         {
