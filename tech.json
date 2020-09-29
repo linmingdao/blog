@@ -1,139 +1,128 @@
 {
-  "category": [
-    {
-      "label": "工欲善其事, 必先利其器",
-      "children": [
-        {
-          "label": "提升 Coding 效率的工具合集",
-          "date": "2020-08-19",
-          "id": "001000"
+    "category": [{
+            "label": "工欲善其事, 必先利其器",
+            "children": [{
+                    "label": "提升 Coding 效率的工具合集",
+                    "date": "2020-08-19",
+                    "id": "001000"
+                },
+                {
+                    "label": "提升效率的软件",
+                    "date": "2020-08-19",
+                    "id": "001001"
+                }
+            ]
         },
         {
-          "label": "提升效率的软件",
-          "date": "2020-08-19",
-          "id": "001001"
-        }
-      ]
-    },
-    {
-      "label": "前端相关笔记",
-      "children": [
-        {
-          "label": "JavaScript",
-          "children": [
-            {
-              "label": "JavaScript 执行机制",
-              "date": "2020-09-01",
-              "id": "003002"
-            },
-            {
-              "label": "浏览器渲染机制",
-              "date": "2020-09-03",
-              "id": "003009"
-            },
-            {
-              "label": "浏览器缓存技术",
-              "date": "2020-08-28",
-              "id": "003004"
-            },
-            {
-              "label": "JS 多类型数据数组去重",
-              "date": "2020-08-31",
-              "id": "003008"
-            },
-            {
-              "label": "深究 Object.prototype.toString",
-              "date": "2020-05-09",
-              "id": "003003"
-            }
-          ]
+            "label": "前端相关笔记",
+            "children": [{
+                    "label": "JavaScript",
+                    "children": [{
+                            "label": "JavaScript 执行机制",
+                            "date": "2020-09-01",
+                            "id": "003002"
+                        },
+                        {
+                            "label": "浏览器渲染机制",
+                            "date": "2020-09-03",
+                            "id": "003009"
+                        },
+                        {
+                            "label": "浏览器缓存技术",
+                            "date": "2020-08-28",
+                            "id": "003004"
+                        },
+                        {
+                            "label": "JS 多类型数据数组去重",
+                            "date": "2020-08-31",
+                            "id": "003008"
+                        },
+                        {
+                            "label": "深究 Object.prototype.toString",
+                            "date": "2020-05-09",
+                            "id": "003003"
+                        }
+                    ]
+                },
+                {
+                    "label": "Vue",
+                    "children": [{
+                            "label": "vue 源码分析前置知识",
+                            "date": "2020-09-01",
+                            "id": "003000"
+                        },
+                        {
+                            "label": "vue@2.x.x 之数据劫持",
+                            "date": "2020-09-03",
+                            "id": "003001"
+                        },
+                        {
+                            "label": "Vue 之 keep-alive 原理",
+                            "date": "2020-09-03",
+                            "id": "003010"
+                        },
+                        {
+                            "label": "Vue 之 virtual dom 以及 diff 算法",
+                            "date": "2020-09-03",
+                            "id": "003011"
+                        },
+                        {
+                            "label": "Vue 常见面试题",
+                            "date": "2020-09-07",
+                            "id": "003012"
+                        }
+                    ]
+                },
+                {
+                    "label": "webpack",
+                    "children": [{
+                            "label": "webpack 之重要概念",
+                            "date": "2020-08-25",
+                            "id": "003005"
+                        },
+                        {
+                            "label": "webpack 之体积优化",
+                            "date": "2020-08-14",
+                            "id": "003006"
+                        },
+                        {
+                            "label": "webpack 之 Tapable",
+                            "date": "2020-08-17",
+                            "id": "003007"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "label": "Vue",
-          "children": [
-            {
-              "label": "vue 源码分析前置知识",
-              "date": "2020-09-01",
-              "id": "003000"
-            },
-            {
-              "label": "vue@2.x.x 之数据劫持",
-              "date": "2020-09-03",
-              "id": "003001"
-            },
-            {
-              "label": "Vue 之 keep-alive 原理",
-              "date": "2020-09-03",
-              "id": "003010"
-            },
-            {
-              "label": "Vue 之 virtual dom 以及 diff 算法",
-              "date": "2020-09-03",
-              "id": "003011"
-            },
-            {
-              "label": "Vue 常见面试题",
-              "date": "2020-09-07",
-              "id": "003012"
-            }
-          ]
+            "label": "后端相关笔记",
+            "children": [{
+                "label": "Nginx 入门",
+                "date": "2020-09-16",
+                "id": "004000"
+            }]
         },
         {
-          "label": "webpack",
-          "children": [
-            {
-              "label": "webpack 之重要概念",
-              "date": "2020-08-25",
-              "id": "003005"
-            },
-            {
-              "label": "webpack 之体积优化",
-              "date": "2020-08-14",
-              "id": "003006"
-            },
-            {
-              "label": "webpack 之 Tapable",
-              "date": "2020-08-17",
-              "id": "003007"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "后端相关笔记",
-      "children": [
-        {
-          "label": "Nginx 入门",
-          "date": "2020-09-16",
-          "id": "004000"
-        }
-      ]
-    },
-    {
-      "label": "运维相关笔记",
-      "children": [
-        {
-          "label": "Linux 常用命令",
-          "date": "2020-09-16",
-          "id": "005000"
+            "label": "运维相关笔记",
+            "children": [{
+                    "label": "Linux 常用命令",
+                    "date": "2020-09-16",
+                    "id": "005000"
+                },
+                {
+                    "label": "shell入门",
+                    "date": "2020-08-17",
+                    "id": "005001"
+                }
+            ]
         },
         {
-          "label": "shell入门",
-          "date": "2020-08-17",
-          "id": "005001"
+            "label": "计算机基础知识笔记",
+            "children": [{
+                "label": "网络工程",
+                "date": "2020-02-07",
+                "id": "006000"
+            }]
         }
-      ]
-    },
-    {
-      "label": "计算机基础知识笔记",
-      "children": [
-        {
-          "label": "网络工程",
-          "date": "2020-02-07",
-          "id": "006000"
-        }
-      ]
-    }
-  ]
+    ]
 }
