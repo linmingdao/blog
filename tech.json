@@ -14,7 +14,7 @@
           "id": "001001"
         },
         {
-          "label": "vscode 常用快捷键",
+          "label": "vscode 使用心得",
           "date": "2020-10-09",
           "id": "001002"
         }
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "label": "webpack",
+          "label": "前端工程化",
           "children": [
             {
               "label": "webpack 之重要概念",
@@ -110,6 +110,26 @@
               "label": "webpack 之 Tapable",
               "date": "2020-08-17",
               "id": "003007"
+            },
+            {
+              "label": "BFF",
+              "date": "2020-11-06",
+              "id": "003015"
+            },
+            {
+              "label": "微前端（Micro Front-end）",
+              "date": "2020-11-05",
+              "id": "003016"
+            },
+            {
+              "label": "前端 CI/CD",
+              "date": "2020-11-06",
+              "id": "003017"
+            },
+            {
+              "label": "pupu 技术栈",
+              "date": "2020-11-06",
+              "id": "003018"
             }
           ]
         }
