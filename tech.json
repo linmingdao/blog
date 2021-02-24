@@ -24,7 +24,7 @@
       "label": "前端相关笔记",
       "children": [
         {
-          "label": "JavaScript",
+          "label": "开发语言",
           "children": [
             {
               "label": "JavaScript 执行机制",
@@ -50,6 +50,11 @@
               "label": "深究 Object.prototype.toString",
               "date": "2020-05-09",
               "id": "003003"
+            },
+            {
+              "label": "TypeScript 容易忽略的特性",
+              "date": "2021-02-24",
+              "id": "003020"
             }
           ]
         },
