@@ -1,8 +1,6 @@
 function myfetch() {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(['小红', '小明', '小李']);
-    }, 3000);
+    setTimeout(() => resolve(['小红', '小明', '小李']), 3000);
   });
 }
 
@@ -27,8 +25,7 @@ function main() {
   console.log('user', user);
 }
 
-// main();
-
+// 构造一个执行 main 的上下文环境
 function run(func) {
   let cache = [];
   let i = 0;
@@ -36,18 +33,24 @@ function run(func) {
   // 保留原始的 myfetch
   const originalMyFetch = myfetch;
   // 重写 myfetch
-  myfetch = () => {
+  myfetch = (...args) => {
+    // 如果有缓存，则直接从缓存返回数据
     if (cache[i] && cache[i].status === 'fulfilled') {
       return cache[i].data;
     } else if (cache[i] && cache[i].status === 'rejected') {
       throw cache[i].err;
     }
 
-    const result = { status: 'pending', data: null, err: null };
+    // 如果没有缓存，则发起请求，并直接抛异常
+    const result = {
+      status: 'pending',
+      data: null,
+      err: null,
+    };
     cache[i++] = result;
 
     // 使用原始的 myfetch 发送请求
-    const promise = originalMyFetch()
+    const promise = originalMyFetch(...args)
       .then((resp) => {
         result.status = 'fulfilled';
         result.data = resp;
@@ -62,14 +65,14 @@ function run(func) {
   };
 
   try {
-    // 第一次执行 func 是触发异步任务的执行
+    // 第一次执行 func，目的是：触发异步任务的执行
     func();
   } catch (err) {
-    // 什么时候引发重新执行 func
+    // 第二次执行 func
     if (err instanceof Promise) {
       const reRun = () => {
         i = 0;
-        // 第二次执行 func 是从已经回来的异步任务缓存中获取返回值
+        // 第二次执行 func，目的是：从已经回来的异步任务缓存中获取返回值
         func();
       };
       err.then(reRun).catch(reRun);
@@ -78,5 +81,3 @@ function run(func) {
 }
 
 run(main);
-// run(main);
-// run(main);
