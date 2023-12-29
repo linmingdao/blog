@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./animate.js"></script>
+    <script src="./runTask.js"></script>
+  </head>
+  <body
+    style="
+      height: 100vh;
+      margin: 0;
+      position: relative;
+      background-color: #61638d;
+    "
+  >
+    <button
+      id="start"
+      style="
+        position: absolute;
+        left: 50%;
+        top: 20px;
+        border-radius: 8px;
+        transform: translateX(-50%);
+        height: 50px;
+        cursor: pointer;
+        color: crimson;
+      "
+    >
+      ====== 开始执行 ======
+    </button>
+    <span
+      id="ball"
+      style="
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: aliceblue;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      "
+    ></span>
+    <script type="module">
+      function sleep(duration = 1) {
+        const start = performance.now();
+        while (performance.now() - start < duration * 1000) {}
+      }
+
+      document.getElementById('start').addEventListener('click', function () {
+        // 模拟批量执行大量的耗时任务
+        for (let index = 0; index < 1000; index++) {
+          runTask(function () {
+            // 模拟是一个耗时任务
+            sleep(0.002);
+            console.log('task done');
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
